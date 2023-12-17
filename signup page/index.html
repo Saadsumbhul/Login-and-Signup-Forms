@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup/Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="signupSection">
+        <h2>Signup</h2>
+        <form id="signupForm">
+            <label for="FullName1">First Name:</label>
+            <input type="text" id="fullName1" required>
+
+            <label for="fullName2">Last Name:</label>
+            <input type="text" id="fullName2" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required> 
+
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required> 
+
+             <button type="button" onclick="signup()">Signup</button>
+            <!-- <button type="button" onclick="toggleLoginSection()">Go to Login Page</button> -->
+        </form>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
